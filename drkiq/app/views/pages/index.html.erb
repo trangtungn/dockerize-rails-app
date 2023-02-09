@@ -1,0 +1,6 @@
+<h1>Pages</h1>
+<% @articles.each do |article| %>
+  <h2>ID: <%= article.id %></h2>
+  <h2>Title: <%= article.title %></h2>
+  <h2>Content: <%= article.content %></h2>
+<% end %>
