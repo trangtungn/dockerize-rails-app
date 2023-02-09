@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'active_support/core_ext/integer/time'
 
 Rails.application.configure do
@@ -33,5 +35,5 @@ Rails.application.configure do
   # Rails have a security features that blocks access from unknown sources.
   # We want our different docker containers to communicate with each other,
   # so we need to whitelist the drkiq container.
-  config.hosts << drkiq
+  config.hosts << 'drkiq'
 end
