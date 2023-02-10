@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-100.times do |idx|
-  Article.create(title: "#{idx} news", content: <<~CONTENT
+n = 2
+n.times do |idx|
+  Post.create(title: "#{idx} news", content: <<~CONTENT
     Lorem Ipsum is simply dummy text of the printing and
     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -11,4 +12,4 @@
   )
 end
 
-p '100 articles created!'
+p "#{n} posts created!"
