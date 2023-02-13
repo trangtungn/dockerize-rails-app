@@ -5,3 +5,5 @@ Let's [dockerize a Ruby on Rails application](https://semaphoreci.com/community/
 
 - [Integration Testing Ruby on Rails with Minitest and Capybara](https://semaphoreci.com/community/tutorials/integration-testing-ruby-on-rails-with-minitest-and-capybara#example-application)
 - [Scalable Ruby on Rails application](https://github.com/trangtungn/dockerize-rails-app/wiki/Scalable-Ruby-on-Rails-applications)
+
+  ![System Design](public/images/system-design.jpeg)
